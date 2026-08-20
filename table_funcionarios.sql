@@ -24,3 +24,5 @@ insert into funcionarios
 UPDATE funcionarios set salario = 7500 where departamento = 'TI';
 
 SELECT * from funcionarios
+
+DELETE from funcionarios where salario < 4000;
