@@ -20,3 +20,7 @@ insert into funcionarios
  ('8', 'Sra. Manuela Azevedo' , 'Vendas', '6101.88'),
  ('9', 'Brenda Cardoso', 'TI', '8853.34'),
  ('10', 'Danilo Souza', 'TI', '8242.14');
+
+UPDATE funcionarios set salario = 7500 where departamento = 'TI';
+
+SELECT * from funcionarios
